@@ -1,0 +1,101 @@
+@CHARSET "UTF-8";
+/**
+ *
+ */
+div.box-min { padding: 20px 25px; text-align: right; border-radius: 5px; background-repeat: no-repeat; background-size: 50px 50px; background-position: 20px 25px; color: #fff; }
+div.box-min p { margin: 0; }
+div.box-min div.pull-left > span.fa { font-size: 40px; margin: 8px 5px; }
+.card-box > div:NTH-CHILD(1) div.box-min { background-color: #712AA8; }
+.card-box > div:NTH-CHILD(2) div.box-min { background-color: #2A3F9B; }
+.card-box > div:NTH-CHILD(3) div.box-min { background-color: #176C53; }
+.card-box > div:NTH-CHILD(4) div.box-min { background-color: #821D46; }
+
+.table-list { margin-top: 30px; }
+
+.stage_add { position: absolute; width: 100vw; height: 100vh; top: 0; left:0; z-index: 1000; opacity: 1; }
+.stage_add > div { position: absolute; top: 25vh; left: 48vw; }
+.stage_add > div > div { width: 300px; }
+.stage_add > div > div form { margin: 25px 10px 0; }
+.stage_add .text-muted { font-size: 10px; color: red; }
+/* 二维码页面电子表样式 */
+.clock > span {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    background: #14959b;
+    padding: 5px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin: 14px 8px;
+    color: #fff;
+}
+
+/*
+二维码界面中 暂停开始样式
+ */
+/*.can-on:after {
+    content: '暂停';
+}
+.can-off:after {
+    content: '继续';
+}*/
+
+/*.stage-type-1:after {
+    content: '物业浴池打分';
+}
+
+.stage-type-2:after {
+    content: '食堂打分';
+}
+
+.stage-type-3:after {
+    content: '全部打分';
+}*/
+
+/*
+公司类型
+ */
+.shop-type-1, .stage-type-1 {
+    background-color: #1b6d85;
+}
+.shop-type-2, .stage-type-2 {
+    background-color: #00c0ef;
+}
+.shop-type-3 {
+    background-color: #3c763d;
+}
+.shop-type-4 {
+    background-color: #712AA8;
+}
+.stage-type-3 {
+    background-color: #843534;
+}
+.shop-type-1:after {
+    content: '物业公司';
+}
+.shop-type-2:after {
+    content: '学生食堂';
+}
+.shop-type-3:after {
+    content: '学生浴池';
+}
+.shop-type-4:after {
+    content: '教师食堂';
+}
+
+
+/* 主页用户注册开关样式 */
+.reg-on {
+    background-color: #5bc0de;
+}
+
+.reg-on:after {
+    content: '开';
+}
+
+.reg-off {
+    background-color: #f0ad4e;
+}
+.reg-off:after {
+    content: '关';
+}

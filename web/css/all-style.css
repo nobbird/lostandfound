@@ -1,0 +1,341 @@
+.red-a {
+    color: red!important;
+}
+
+.text-black {
+    color: black!important;
+}
+.text-white {
+    color: #ffffff;
+}
+.bg-info {
+    background-color: #d9edf7;
+}
+
+.box {
+    position: relative;
+    background: #ffffff;
+    border-top: 2px solid #c1c1c1;
+    margin: 0 auto 15px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    max-width: 650px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.box.box-primary {
+    border-top-color: #3c8dbc;
+}
+.box.box-info {
+    border-top-color: #00c0ef;
+}
+.box.box-danger {
+    border-top-color: #f56954;
+}
+.box.box-warning {
+    border-top-color: #f39c12;
+}
+.box.box-success {
+    border-top-color: #00a65a;
+}
+.box.box-pink {
+    border-top-color: #f564b2;
+}
+.bg-color-primary {
+    background-color: #3c8dbc;
+    color: #FFFFFF;
+}
+.box .box-header {
+    position: relative;
+    border-radius: 3px 3px 0 0;
+    border-bottom: 0 solid #f4f4f4;
+    color: #444;
+}
+.box .box-header:before,
+.box .box-header:after {
+    display: table;
+    content: " ";
+}
+.box .box-header:after {
+    clear: both;
+}
+.box .box-header .box-title {
+    display: inline-block;
+    padding: 12px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 800;
+    float: left;
+    cursor: default;
+}
+.box .box-header .box-title .fa {
+    padding-right: 10px;
+}
+.box .box-header .h-title {
+    display: inline-block;
+    padding-top: 15px;
+}
+.box .box-body {
+    padding: 12px 15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.alert-xs {
+    margin-bottom: 15px;
+}
+.h-title {
+    font-weight: bolder;
+    font-size: 18px;
+}
+td {
+    vertical-align: middle!important;
+}
+
+/*用在class.html record.html中*/
+.select-group {
+    margin-bottom: 8px;
+}
+.select-group span {
+    font-weight: bolder;
+    font-size: 13px;
+    color: #4cae4c;
+}
+.select-group select {
+    display: inline-block;
+    width: 87px;
+    height: 24px;
+    padding: 2px 4px;
+    font-size: 12px;
+}
+
+
+/*class.html课程列表样式*/
+.class-box {
+    display: block;
+    width: 100%;
+    margin-bottom: 9px;
+    border-radius: 5px;
+    box-shadow: 0 1px 6px -2px grey;
+}
+.bg-color-0 > div:first-child {
+    background-color: #fcf8e3;
+}
+.bg-color-0 > div:nth-child(2) .status:after {
+    content: '未开始';
+    color: #8a6d3b;
+}
+.bg-color-1 > div:first-child {
+    background-color: #d9edf7;
+}
+.bg-color-1 > div:nth-child(2) .status:after {
+    content: '进行中';
+    color: #31708f;
+}
+.bg-color-2 > div:first-child {
+    background-color: #dff0d8;
+}
+.bg-color-2 > div:nth-child(2) .status:after {
+    content: '已结束';
+    color: #3c763d;
+}
+.class-box .class-up {
+    padding: 12px 12px 6px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.class-box .class-up p {
+    margin: 0;
+    padding: 2px 0 4px;
+}
+.class-box .class-up p:first-child {
+    font-size: 18px;
+    padding-right: 5px;
+}
+.class-box .class-up p:last-child {
+    font-size: 11px;
+    color: #979797;
+}
+.class-box .class-up p:last-child > span:last-child {
+    float: right;
+}
+.class-box .class-down {
+    padding: 12px;
+}
+.class-box .class-down p {
+    display: inline-block;
+    margin: 2px 0;
+}
+.class-box .class-down p:first-of-type {
+    width: 78%;
+    padding-top: 2px;
+    color: #979797;
+    font-size: 13px;
+}
+.class-box .class-down p:last-of-type {
+    width: 20%;
+    text-align: right;
+}
+.class-box .class-work {
+    border-top: 1px gray solid;
+    margin: 12px;
+}
+.class-box .class-work > div {
+    word-break: break-all;
+}
+
+/*记录状态，课程状态样式*/
+span[class^='star-'], [class^='post-'], [class^='shop-type-'], [class^='stage-type-'],
+[class^='reg-'] {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 82%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+.star-1 {
+    background-color: #d9534f;
+}
+.star-2 {
+    background-color: #f0ad4e;
+}
+.star-3, .post-1 {
+    background-color: #5bc0de;
+}
+.star-4 {
+    background-color: #449d44;
+}
+.star-1:after {
+    content: '差评';
+}
+.star-2:after {
+    content: '及格';
+}
+.star-3:after {
+    content: '良好';
+}
+.star-4:after {
+    content: '优秀';
+}
+/**
+前台用户首页职位
+ */
+.post-1:after {
+    content: '学生';
+}
+
+.post-2:after {
+    content: '教师';
+}
+.post-2 {
+    background-color: #712AA8;
+}
+
+/**
+位置信息录入页面样式
+ */
+.show_local {
+    padding: 15px;
+    text-align: center;
+    height: 135px;
+}
+.show_local div {
+    padding: 10px;
+}
+
+/**
+ * 后台首页图表样式
+ */
+.chart > div {
+    height: 400px;
+    margin: 15px auto;
+}
+.chart {
+    margin-bottom: 60px;
+}
+
+
+/*用户打分界面 公司列表布局*/
+.user-mark {
+    padding: 12px 10px 20px;
+    margin-bottom: 10px;
+}
+.user-mark:not(:last-of-type) {
+    border-bottom: 1px solid gray;
+}
+.user-mark > div:last-child {
+    padding: 5px 0 0;
+}
+.user-mark label > span {
+    display: inline;
+    font-size: 18px;
+    margin: 0 4px;
+    padding: .2em .5em .1em;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #3c8dbc;
+}
+
+
+/* 自定义弹窗 */
+.pop-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 200;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.pop-dialog .pop-body {
+    position: relative;
+    height: 70%;
+    width: 60%;
+    padding: 10px 13px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.pop-dialog .pop-close {
+    display: inline-block;
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 800;
+    height: 26.71px;
+    line-height: 20px;
+    border-radius: 50%;
+    color: #000;
+}
+
+.pop-dialog .numbers {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    padding: 5px;
+}
+
+.pop-dialog .pop-close:hover {
+    color: #ff4843;
+}
+
+.pop-dialog .pop-btns {
+    padding: 20px 0;
+}
+
+.pop-dialog .pop-btns > button {
+    margin: 0 3px;
+}
