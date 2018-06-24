@@ -2,10 +2,11 @@
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="entity.Wuping" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ include file="header.jsp"%>
 <script>
     changeTab("招领信息");
 </script>
-<%@ include file="header.jsp"%>
+
 <div class="foundInfo-xcontent">
 <form action="do4.jsp" method="post">
     <table width="100%" border="1" align="center">

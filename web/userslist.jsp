@@ -5,10 +5,10 @@
 <%@ page import="dao.impl.UserDaoImpl" %>
 <%@ page import="entity.Users" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ include file="header.jsp"%>
 <script>
     changeTab('用户管理');
 </script>
-<%@ include file="header.jsp"%>
 <div class="userList-xcontent">
     <form action="do4.jsp" method="post">
         <table width="100%" border="1" align="center">

@@ -2,10 +2,11 @@
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="entity.Admin" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<script>
-    changeTab('用户管理');
-</script>
 <%@ include file="header.jsp"%>
+<script>
+    changeTab('管理员信息');
+</script>
+
 <div class="adminInfo-xcontent">
     <form action="do4.jsp" method="post">
         <table width="70%" border="1" align="center">

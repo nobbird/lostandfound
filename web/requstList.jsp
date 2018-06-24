@@ -2,6 +2,7 @@
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="entity.Found" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ include file="header.jsp"%>
 <script>
     changeTab('申请管理');
     function s_agree(id, flag) {
@@ -31,7 +32,7 @@
         }
     }
 </script>
-<%@ include file="header.jsp"%>
+
 <div class="requstList-xcontent">
     <form action="do4.jsp" method="post">
         <table width="100%" border="1" align="center">

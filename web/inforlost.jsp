@@ -1,17 +1,11 @@
 <%@ page import="dao.impl.WupingDaoimpl" %>
 <%@ page import="java.util.ArrayList" %>
-<%@ page import="entity.Wuping" %><%--
-  Created by IntelliJ IDEA.
-  User: lenovo
-  Date: 2018/6/22
-  Time: 20:58
-  To change this template use File | Settings | File Templates.
---%>
+<%@ page import="entity.Wuping" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<script>
+<%@ include file="header.jsp"%>
+<script  type="text/javascript">
     changeTab('寻物信息');
 </script>
-<%@ include file="header.jsp"%>
 <div class="lostInfo-xcontent">
 <form action="do4.jsp" method="post">
     <table width="100%" border="1" align="center">
